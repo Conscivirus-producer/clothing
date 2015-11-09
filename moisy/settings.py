@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'djntest',
     'books',
-    'polls',
+    #'polls',
 )
 
 MIDDLEWARE_CLASSES = (
