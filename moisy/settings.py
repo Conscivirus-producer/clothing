@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'djntest',
     'books',
-    #'polls',
+    'polls',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -63,11 +63,11 @@ WSGI_APPLICATION = 'moisy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangostack',
+        'NAME': 'test',
         'HOST': '/opt/bitnami/mysql/tmp/mysql.sock',
         'PORT': '3306',
-        'USER': 'bitnami',
-        'PASSWORD': '01ce1e441a'
+        'USER': 'root',
+        'PASSWORD': '123456'
     }
 }
 
