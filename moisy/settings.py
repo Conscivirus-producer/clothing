@@ -63,11 +63,11 @@ WSGI_APPLICATION = 'moisy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
+        'NAME': 'djangostack',
         'HOST': '/opt/bitnami/mysql/tmp/mysql.sock',
         'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': '123456'
+        'USER': 'bitnami',
+        'PASSWORD': '01ce1e441a'
     }
 }
 
