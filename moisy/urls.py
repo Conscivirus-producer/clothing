@@ -10,4 +10,5 @@ urlpatterns = patterns('',
 	#url(r'^polls/', include('polls.urls', namespace="polls")),
 	url(r'^djntest/', include('djntest.urls')),
     url(r'^$', default_urlconf),
+	url(r'^polls/',include('polls.urls')),
 )
